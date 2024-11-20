@@ -1,0 +1,197 @@
+/* General styles for the page */
+.mentorship-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-and-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-height: 300px; /* Set a maximum height */
+  overflow-y: auto;  /* Allow scrolling if content overflows */
+}
+
+.filter-section {
+  max-height: 100%; /* Make it adapt to the parent's height */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduce spacing between fields */
+}
+
+.filter-title {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Reduce spacing between the icon and title */
+}
+
+.filter-icon {
+  font-size: 1.5rem;
+}
+
+.filter-fields input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.filter-fields input::placeholder {
+  color: #aaa;
+}
+
+/* Profile Cards Section */
+.profile-cards {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four cards in a row */
+  gap: 20px; /* Increased spacing between cards */
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15px; /* Reduced height */
+  width: 180px; /* Fixed width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.profile-info p {
+  font-size: 0.85rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.request-mentorship-btn {
+  background-color: #5c1b1b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.request-mentorship-btn:hover {
+  background-color: #732222;
+}
+/* Mentor Mentee Match Section */
+.mentor-match-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.mentor-match-section h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.match-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 20px 0; /* Add spacing above and below */
+}
+
+.progress-bar {
+  width: 80%; /* Adjust width for better visibility */
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  width: 76%; /* Match percentage */
+  background-color: #5c1b1b;
+  border-radius: 10px;
+}
+
+
+.percentage-text {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.match-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.match-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.goal-tracking-btn,
+.feedback-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.goal-tracking-btn {
+  background-color: #5c1b1b;
+  color: white;
+}
+
+.goal-tracking-btn:hover {
+  background-color: #5c1b1b;
+}
+
+.feedback-btn {
+  background-color: #5c1b1b;
+  color: white;
+}
+
+.feedback-btn:hover {
+  background-color: #5c1b1b;
+}
+
+.mentorship-details-section {
+  margin-top: 30px;
+}

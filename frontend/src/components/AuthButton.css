@@ -1,0 +1,25 @@
+.auth-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #5c1b1b;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #5c1b1b;
+  cursor: pointer;
+}
+
+.auth-button.google {
+  border-color: #4285F4;
+  color: #4285F4;
+}
+
+.auth-button.email {
+  border-color: #5c1b1b;
+}
+
+.auth-button:hover {
+  background-color: #5c1b1bb3;
+}

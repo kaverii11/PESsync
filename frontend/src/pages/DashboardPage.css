@@ -1,0 +1,115 @@
+/* dashborad.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #5c1b1b;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c1b1b;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #5c1b1b;
+  font-size: 16px;
+}
+
+.auth-links {
+  display: flex;
+  gap: 20px;
+}
+
+.auth-links .join-now,
+.auth-links .sign-in {
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid #5c1b1b;
+  font-size: 14px;
+}
+
+.auth-links .sign-in {
+  background-color: #5c1b1b;
+  color: #fff;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: calc(100vh - 100px);
+  padding: 20px;
+}
+
+.welcome-section {
+  max-width: 500px;
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.auth-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #5c1b1b;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #5c1b1b;
+  cursor: pointer;
+}
+
+.google-auth {
+  border-color: #4285F4;
+  color: #4285F4;
+}
+
+.email-auth {
+  border-color: #5c1b1b;
+}
+
+.auth-button:hover {
+  background-color: #f0f0f0;
+}
+
+.terms {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.terms a {
+  color: #5c1b1b;
+  text-decoration: underline;
+}
+
+.join-now-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.icon-section img {
+  max-width: 400px;
+}

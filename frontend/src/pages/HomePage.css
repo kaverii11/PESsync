@@ -1,0 +1,237 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #5c1b1b;
+}
+
+.profile-page {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Left Column Container */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Profile Card */
+.profile-sidebar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+}
+
+.profile-info {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 auto 15px;
+}
+
+.profile-info h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Stats Section */
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Mentor and Skills Sections */
+.mentor-section,
+.skills-section {
+  padding: 20px 0;
+}
+
+.mentor-section:not(:last-child) {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Discover Section */
+.discover-sidebar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+}
+
+.discover-sidebar h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.discover-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.discover-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin-right: 12px;
+}
+
+.discover-info {
+  flex-grow: 1;
+}
+
+.discover-info p:first-child {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.discover-info p:last-child {
+  font-size: 12px;
+  color: #666;
+}
+
+.connect-btn {
+  background-color: #5c1b1b;
+  color: #ffffff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+
+/* Feed Section */
+.feed-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post-author {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.post-content {
+  background-color: #f5f5f5;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+}
+button.active {
+  background-color: #ffcdcd; /* Active state background color */
+  color: #fff;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #ffcdcd;
+}
+

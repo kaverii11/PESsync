@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #5c1b1b;
+}
+
+/* Connect Page Layout */
+.connect-page {
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* Profile Widget */
+.profile-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 550px;
+  width: 35%;  
+  border: 2px solid #5c1b1b;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-details p {
+  font-size: 15px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* People You May Know Section */
+.connect-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  background-color: #5c1b1b;
+  color: white;  /* White text */
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;  /* Full width */
+}
+
+.connect-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Connect Card Style */
+.connect-card {
+  background-color: #ffffff;
+  border: 2px solid #5c1b1b; /* Maroon outline */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+  min-width: 200px;
+}
+
+.connect-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 auto 10px;
+}
+
+.connect-info p {
+  font-size: 14px;
+  color: #5c1b1b;
+  margin: 5px 0;
+}
+
+.connect-btn {
+  background-color: #5c1b1b;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.share-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 16px;
+  color: #5c1b1b;
+  cursor: pointer;
+}
+
+/* Stay Connected, Stay Updated Section */
+.stay-connected-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stay-connected-section h3 {
+  font-size: 18px;
+  color: #5c1b1b;
+  margin-bottom: 15px;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* Footer/Links Section */
+.footer-links {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.footer-links h3 {
+  font-size: 18px;
+  color: #5c1b1b;
+  margin-bottom: 20px;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.link-button {
+  background-color: #ffffff;
+  border: 1px solid #5c1b1b;
+  padding: 12px 18px;
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #5c1b1b;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.link-button:hover {
+  transform: translateY(-5px);
+}
+
+.link-button .icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.link-button p {
+  font-weight: bold;
+  margin: 0;
+}

@@ -1,0 +1,131 @@
+.mentorship-details-page {
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 36px;
+  color: #5c1b1b;
+  margin-bottom: 20px;
+}
+
+.details-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mentor-profile {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-image {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.mentor-field {
+  font-size: 14px;
+  color: #777;
+}
+
+.mentor-bio {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.reviews-section {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section h3 {
+  font-size: 18px;
+  color: #5c1b1b;
+  margin-bottom: 10px;
+}
+
+.review {
+  font-size: 14px;
+  color: #555;
+}
+
+.rating {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.calendar-section {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-section h3 {
+  font-size: 18px;
+  color: #5c1b1b;
+  margin-bottom: 10px;
+}
+
+.chat-section {
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-section h3 {
+  font-size: 18px;
+  color: #5c1b1b;
+  margin-bottom: 10px;
+}
+
+.chat-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  background-color: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.chat-input button {
+  background-color: #5c1b1b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

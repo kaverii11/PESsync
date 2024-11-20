@@ -1,0 +1,85 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align to the top for scrolling */
+  height: 100vh; /* Use the full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling for the container */
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.signup-image {
+  width: 40%;
+  padding-right: 2rem;
+}
+
+.signup-image img {
+  width: 100%;
+  height: auto;
+}
+
+.signup-form {
+  width: 60%;
+  padding: 2rem;
+  border: 1px solid #5c1b1b;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 90vh; /* Prevent the form from exceeding the viewport height */
+  overflow-y: auto; /* Add scroll within the form if necessary */
+}
+
+.signup-form h2 {
+  color: #5c1b1b;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.signup-form label {
+  display: block;
+  font-size: 1rem;
+  color: #5c1b1b;
+  margin-top: 1rem;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="tel"],
+.signup-form input[type="password"] { /* Include password styling here */
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #5c1b1b;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.signup-form .gender-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.gender-options label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.file-input {
+  margin-top: 0.5rem;
+  color: #5c1b1b;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #5c1b1b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #8b3b61;
+}
